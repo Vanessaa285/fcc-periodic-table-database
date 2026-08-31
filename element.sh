@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 1. Datenbankname korrigiert
-PSQL="psql --username=freecodecamp --dbname=periodic_table -t --no-align -c"
+PSQL="psql --username=postgres --dbname=periodic_table -t --no-align -c"
 
 # 2. Leerzeichen nach der Klammer korrigiert
 if [[ -z $1 ]]
